@@ -1,0 +1,86 @@
+.swatch-0 {
+  background: red;
+}
+
+.swatch-1 {
+  background: #ff4d00;
+}
+
+.swatch-2 {
+  background: #ff9900;
+}
+
+.swatch-3 {
+  background: #ffe500;
+}
+
+.swatch-4 {
+  background: #ccff00;
+}
+
+.swatch-5 {
+  background: #80ff00;
+}
+
+.swatch-6 {
+  background: #33ff00;
+}
+
+.swatch-7 {
+  background: #00ff19;
+}
+
+.swatch-8 {
+  background: #00ff66;
+}
+
+.swatch-9 {
+  background: #00ffb3;
+}
+
+.swatch-10 {
+  background: cyan;
+}
+
+.swatch-11 {
+  background: #00b2ff;
+}
+
+.swatch-12 {
+  background: #0066ff;
+}
+
+.swatch-13 {
+  background: #0019ff;
+}
+
+.swatch-14 {
+  background: #3300ff;
+}
+
+.swatch-15 {
+  background: #7f00ff;
+}
+
+.swatch-16 {
+  background: #cc00ff;
+}
+
+.swatch-17 {
+  background: #ff00e6;
+}
+
+.swatch-18 {
+  background: #ff0099;
+}
+
+.swatch-19 {
+  background: #ff004c;
+}
+
+[class^="swatch"] {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: solid 1px #000;
+}

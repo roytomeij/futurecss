@@ -1,0 +1,328 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #000;
+  background: #fff;
+}
+
+body {
+  background: #000;
+  text-align: center;
+  color: #fff;
+}
+
+[class^="month"] {
+  width: 8.3333333333%;
+  height: 100%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  padding-top: 2em;
+  border: solid 1px #666;
+}
+[class^="month"]::before {
+  content: "";
+  width: 100%;
+  top: 100%;
+  left: 0;
+  position: absolute;
+  margin-top: -50%;
+  padding-top: 100%;
+  background: yellow;
+  border-radius: 50%;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+}
+
+@keyframes sun_1 {
+  36.1805555556% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  70.6944444444% {
+    top: 100%;
+  }
+}
+.month_1::before {
+  animation-name: sun_1;
+}
+
+@keyframes sun_2 {
+  33.0555555556% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  74.5138888889% {
+    top: 100%;
+  }
+}
+.month_2::before {
+  animation-name: sun_2;
+}
+
+@keyframes sun_3 {
+  28.8194444444% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  78.0555555556% {
+    top: 100%;
+  }
+}
+.month_3::before {
+  animation-name: sun_3;
+}
+
+@keyframes sun_4 {
+  28.0555555556% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  85.9027777778% {
+    top: 100%;
+  }
+}
+.month_4::before {
+  animation-name: sun_4;
+}
+
+@keyframes sun_5 {
+  24.0972222222% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  89.375% {
+    top: 100%;
+  }
+}
+.month_5::before {
+  animation-name: sun_5;
+}
+
+@keyframes sun_6 {
+  22.2222222222% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  91.7361111111% {
+    top: 100%;
+  }
+}
+.month_6::before {
+  animation-name: sun_6;
+}
+
+@keyframes sun_7 {
+  23.4722222222% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  91.25% {
+    top: 100%;
+  }
+}
+.month_7::before {
+  animation-name: sun_7;
+}
+
+@keyframes sun_8 {
+  26.5972222222% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  87.8472222222% {
+    top: 100%;
+  }
+}
+.month_8::before {
+  animation-name: sun_8;
+}
+
+@keyframes sun_9 {
+  30.1388888889% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  83.0555555556% {
+    top: 100%;
+  }
+}
+.month_9::before {
+  animation-name: sun_9;
+}
+
+@keyframes sun_10 {
+  33.6111111111% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  78.2638888889% {
+    top: 100%;
+  }
+}
+.month_10::before {
+  animation-name: sun_10;
+}
+
+@keyframes sun_11 {
+  33.2638888889% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  70.0694444444% {
+    top: 100%;
+  }
+}
+.month_11::before {
+  animation-name: sun_11;
+}
+
+@keyframes sun_12 {
+  36.1805555556% {
+    top: 100%;
+  }
+  50% {
+    top: 0;
+  }
+  68.6805555556% {
+    top: 100%;
+  }
+}
+.month_12::before {
+  animation-name: sun_12;
+}
+
+@keyframes time {
+  0% {
+    text-indent: 0;
+  }
+  4.166666667% {
+    text-indent: 0ch;
+  }
+  8.333333334% {
+    text-indent: -5ch;
+  }
+  12.500000001% {
+    text-indent: -10ch;
+  }
+  16.666666668% {
+    text-indent: -15ch;
+  }
+  20.833333335% {
+    text-indent: -20ch;
+  }
+  25.000000002% {
+    text-indent: -25ch;
+  }
+  29.166666669% {
+    text-indent: -30ch;
+  }
+  33.333333336% {
+    text-indent: -35ch;
+  }
+  37.500000003% {
+    text-indent: -40ch;
+  }
+  41.66666667% {
+    text-indent: -45ch;
+  }
+  45.833333337% {
+    text-indent: -50ch;
+  }
+  50.000000004% {
+    text-indent: -55ch;
+  }
+  54.166666671% {
+    text-indent: -60ch;
+  }
+  58.333333338% {
+    text-indent: -65ch;
+  }
+  62.500000005% {
+    text-indent: -70ch;
+  }
+  66.666666672% {
+    text-indent: -75ch;
+  }
+  70.833333339% {
+    text-indent: -80ch;
+  }
+  75.000000006% {
+    text-indent: -85ch;
+  }
+  79.166666673% {
+    text-indent: -90ch;
+  }
+  83.33333334% {
+    text-indent: -95ch;
+  }
+  87.500000007% {
+    text-indent: -100ch;
+  }
+  91.666666674% {
+    text-indent: -105ch;
+  }
+  95.833333341% {
+    text-indent: -110ch;
+  }
+  100.000000008% {
+    text-indent: -115ch;
+  }
+}
+body::after {
+  content: "00:0001:0002:0003:0004:0005:0006:0007:0008:0009:0010:0011:0012:0013:0014:0015:0016:0017:0018:0019:0020:0021:0022:0023:00";
+  width: 90px;
+  height: 35px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: 9;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 30px;
+  text-indent: 0;
+  background: rgba(0, 0, 0, 0.8);
+  animation-name: time;
+  animation-duration: 12s;
+  animation-timing-function: steps(1, start);
+}

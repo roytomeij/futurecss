@@ -1,0 +1,31 @@
+.testimonial, .blogpost {
+  margin: 30px;
+  padding: 20px;
+  background: #ccc;
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .testimonial, .blogpost {
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+.introduction {
+  font-style: italic;
+  font-size: 125%;
+  font-weight: bold;
+  color: red;
+}
+
+@media (min-width: 800px) {
+  .testimonial {
+    width: 50%;
+    float: right;
+  }
+}
+
+.introduction, .testimonial {
+  font-family: sans-serif;
+}

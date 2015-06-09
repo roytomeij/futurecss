@@ -1,0 +1,78 @@
+@import "base";
+
+$grid: (
+
+"↓                                       ",
+" ↘                                      ",
+"     ↓                                  ",
+"      ↘                                 ",
+"          →                             ",
+"                  →                     ",
+"                       ↘                ",
+"                            →           ",
+"                                    ↑   ",
+"                                    ↑   "
+
+);
+
+$grid-width: str-length(nth($grid, 1));
+$column-width: 100% / $grid-width;
+$row-height: 100% / length($grid);
+
+@function index-of-char($string) {
+  @for $i from 1 through $grid-width {
+    $char: str-slice($string, $i, $i);
+
+    @if $char != ' ' {
+      @return ($i, $char);
+    }
+  }
+
+  @return (0, 0);
+}
+
+@function rotation-of-char($string) {
+  $arrows: (
+    ↑: 0,
+    ↗: 45,
+    →: 90,
+    ↘: 135,
+    ↓: 180,
+    ↙: 225,
+    ←: 270,
+    ↖: 315
+  );
+
+  @return map-get($arrows, $string);
+}
+
+@keyframes fly {
+  0% {
+    top: 0;
+    left: 0;
+  }
+
+  $i: 1;
+
+  @each $row in $grid {
+    $char: index-of-char(nth($row, 1));
+
+    #{$row-height * $i} {
+      top: $row-height * $i;
+      left: $column-width * nth($char, 1);
+      transform: rotate(#{rotation-of-char(nth($char, 2))}deg)
+    }
+
+    $i: $i + 1;
+  }
+}
+
+#rocket {
+  position: absolute;
+  margin: -87.5px 0 0 -50px;
+  transform: rotate(180deg);
+  animation-name: fly;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}

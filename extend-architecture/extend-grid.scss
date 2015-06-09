@@ -1,0 +1,62 @@
+%box {
+  margin: 30px;
+  padding: 20px;
+  background: #ccc;
+  border-radius: 10px;
+
+  @media (max-width: 500px) {
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+%highlight {
+  font-style: italic;
+  font-size: 125%;
+  font-weight: bold;
+  color: red;
+}
+
+%pull {
+  @media (min-width: 800px) {
+    width: 50%;
+    float: right;
+  }
+}
+
+%alternative-font {
+  font-family: sans-serif;
+}
+
+
+// Class names in our HTML are descriptive of what something is.
+// Placeholder names in our Sass are descriptive of how it looks (styleguide).
+// This visual representation ties the two together:
+
+$config: (
+                        box       highlight       pull       alternative-font  ,
+  ".introduction"     "     "   "     x     "   "      "   "        x         ",
+  ".testimonial"      "  x  "   "           "   "  x   "   "        x         ",
+  ".blogpost"         "  x  "   "           "   "      "   "                  "
+);
+
+
+$extendables: ();
+
+@each $line in $config {
+  @if ($line == nth($config, 1)) {
+    $extendables: $line;
+  }
+  @else {
+    $selector: nth($line, 1);
+
+    #{$selector} {
+      @for $i from 1 through length($extendables) {
+        @if (str-index(nth($line, $i+1), "x")) {
+          @extend %#{nth($extendables, $i)};
+        }
+      }
+    }
+
+  }
+}

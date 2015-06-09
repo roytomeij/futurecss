@@ -1,0 +1,47 @@
+%box {
+  margin: 30px;
+  padding: 20px;
+  background: #ccc;
+  border-radius: 10px;
+
+  @media (max-width: 500px) {
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+%highlight {
+  font-style: italic;
+  font-size: 125%;
+  font-weight: bold;
+  color: red;
+}
+
+%pull {
+  @media (min-width: 800px) {
+    width: 50%;
+    float: right;
+  }
+}
+
+%alternative-font {
+  font-family: sans-serif;
+}
+
+
+// Extending the placeholders:
+
+.introduction {
+  @extend %highlight;
+  @extend %alternative-font;
+}
+
+.testimonial {
+  @extend %box;
+  @extend %pull;
+  @extend %alternative-font;
+}
+
+.blogpost {
+  @extend %box;
+}

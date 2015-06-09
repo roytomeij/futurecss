@@ -1,0 +1,16 @@
+$start-color: red;
+$number-of-colors: 20;
+$degrees: 360 / $number-of-colors;
+
+@for $i from 0 to $number-of-colors {
+  .swatch-#{$i} {
+    background: adjust-hue($start-color, $i * $degrees);
+  }
+}
+
+[class^="swatch"] {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: solid 1px #000;
+}

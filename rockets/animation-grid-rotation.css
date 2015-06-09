@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 100px;
+  overflow: hidden;
+}
+
+body.no-padding {
+  padding: 0;
+}
+
+html,
+body,
+#canvas {
+  width: 100%;
+  height: 100%;
+}
+
+#canvas {
+  position: relative;
+  background: url("img/bg.png");
+}
+
+@keyframes fly {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  10% {
+    top: 10%;
+    left: 2.5%;
+    transform: rotate(180deg);
+  }
+  20% {
+    top: 20%;
+    left: 5%;
+    transform: rotate(135deg);
+  }
+  30% {
+    top: 30%;
+    left: 15%;
+    transform: rotate(180deg);
+  }
+  40% {
+    top: 40%;
+    left: 17.5%;
+    transform: rotate(135deg);
+  }
+  50% {
+    top: 50%;
+    left: 27.5%;
+    transform: rotate(90deg);
+  }
+  60% {
+    top: 60%;
+    left: 47.5%;
+    transform: rotate(90deg);
+  }
+  70% {
+    top: 70%;
+    left: 60%;
+    transform: rotate(135deg);
+  }
+  80% {
+    top: 80%;
+    left: 72.5%;
+    transform: rotate(90deg);
+  }
+  90% {
+    top: 90%;
+    left: 92.5%;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: 100%;
+    left: 92.5%;
+    transform: rotate(0deg);
+  }
+}
+
+#rocket {
+  position: absolute;
+  margin: -87.5px 0 0 -50px;
+  transform: rotate(180deg);
+  animation-name: fly;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
