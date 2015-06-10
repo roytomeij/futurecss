@@ -1,5 +1,5 @@
 $start-color: red;
-$number-of-colors: 20;
+$number-of-colors: 0;
 $degrees: 360 / $number-of-colors;
 
 @for $i from 0 to $number-of-colors {
