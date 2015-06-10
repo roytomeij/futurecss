@@ -104,6 +104,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/colors\/color-wheel-hue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54588,
+		"inputAbbreviatedPath": "\/colors\/color-wheel-hue.png",
+		"outputAbbreviatedPath": "\/colors\/color-wheel-hue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/extend-architecture\/extend-grid.css": {
 		"fileType": 16,
 		"ignore": 1,
