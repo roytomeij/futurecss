@@ -6,6 +6,6 @@
     * Traditional
     * Map
 * Rockets
-* Extende Architecture: Grid
+* Extend Architecture: Grid
 * Sunrise
 * ASCII Art
