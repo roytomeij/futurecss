@@ -1,0 +1,6 @@
+[class^="swatch"] {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: solid 1px #000;
+}
