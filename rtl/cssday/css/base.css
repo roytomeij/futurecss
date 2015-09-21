@@ -1,0 +1,586 @@
+html {
+  direction: ltr;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font: 100% Source Code Pro, Inconsolata, Menlo, monospace;
+  background-color: white;
+  color: #222;
+  font-smoothing: antialiased;
+}
+
+header {
+  background-color: #e3e2db;
+  padding: 0 1em;
+  text-align: center;
+}
+
+/* Logo */
+header h1 {
+  width: 100%;
+  height: 5em;
+  background: transparent url("../img/cssday-logo.png") center 1.618em no-repeat;
+  background-size: 5em;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#content p,
+#content ul,
+#content ol,
+#content dl {
+  line-height: 1.618em;
+  margin-top: 1.618em;
+  margin-bottom: 1.618em;
+}
+
+/* divisions */
+#content,
+footer {
+  padding: 1px 1em;
+}
+
+nav,
+footer,
+#spotlight {
+  background-color: #333;
+  color: white;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: olivedrab;
+  font-weight: normal;
+}
+
+h1::before,
+h2::before,
+h3::before {
+  content: '/* ';
+}
+
+h1::after,
+h2::after,
+h3::after {
+  content: ' */';
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+footer h1 {
+  font-size: 1em;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer li {
+  margin-bottom: 2em;
+}
+
+footer a:hover {
+  background-color: transparent;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted olivedrab;
+}
+
+a:link,
+.info {
+  color: olivedrab;
+}
+
+a:visited {
+  color: gray;
+}
+
+nav a:visited {
+  color: white;
+}
+
+input[type="submit"]:hover,
+a:hover,
+a:active {
+  background-color: olivedrab;
+  color: white;
+  transition-property: background-color, border;
+  transition-duration: .5s;
+  transition-property: background-color, border;
+  transition-duration: .5s;
+}
+
+nav a,
+footer a {
+  border: none;
+}
+
+footer a, footer a:link, footer a:visited {
+  color: #fff;
+}
+
+input[type="submit"],
+nav a,
+#spotlight a {
+  color: white;
+}
+
+/* Date */
+.date {
+  color: #222;
+  font-size: xx-large;
+  margin: 0 0.4em;
+}
+
+/* Purchase link */
+.purchase,
+input[type="submit"] {
+  background-color: olivedrab;
+}
+
+.purchase a {
+  display: block;
+  padding: 0.2em 1em 1em;
+  color: white;
+}
+
+.purchase a:hover,
+input[type="submit"]:hover {
+  background-color: #222;
+}
+
+/* Menus */
+.speakers ul,
+#spotlight,
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Navigation */
+nav li {
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+nav a {
+  display: block;
+}
+
+nav a:link {
+  color: white;
+}
+
+/* List of speakers */
+.speakers ul::before {
+  content: '#speakers {';
+  font-weight: bold;
+}
+
+.speakers ul::after {
+  content: '}';
+  font-weight: bold;
+}
+
+.speakers li {
+  padding-left: 2em;
+}
+
+/* Put a couple of links in the spotlight on small screens */
+#spotlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#spotlight li {
+  float: left;
+  width: 50%;
+  border-left: 1px solid #e3e2db;
+}
+
+#spotlight li:first-child {
+  border-left: none;
+  margin-left: -1px;
+}
+
+#spotlight a,
+nav a {
+  display: block;
+  padding: .5em 0;
+}
+
+/* Contact form */
+fieldset:before {
+  content: '/*** contact form ***/';
+}
+
+fieldset:after {
+  content: '/*** end contact form ***/';
+}
+
+fieldset {
+  padding: 0.5em 1em;
+  background-color: #e3e2db;
+  border: none;
+}
+
+label, input {
+  display: block;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.with-caption + p {
+  margin-top: 0;
+  font-size: x-small;
+}
+
+.img img,
+.speaker img {
+  max-width: 100%;
+  border-radius: .4rem;
+}
+
+input[type="submit"] {
+  border: none;
+}
+
+/* Table fun */
+th, td {
+  padding: .5em;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(2n+2) {
+  background-color: #e3e2db;
+}
+
+#attendees tr > td.header {
+  background-color: #222;
+  color: white;
+}
+
+thead.scripted th {
+  cursor: pointer;
+}
+
+#attendees {
+  font-size: small;
+  width: 100%;
+}
+
+caption {
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 30em) {
+  #attendees thead {
+    position: absolute;
+    top: -9999px;
+  }
+  #attendees thead.scripted {
+    position: static;
+  }
+  #attendees thead tr {
+    background-color: #e3e2db;
+  }
+  #attendees thead.scripted tr:before {
+    content: 'Sort by:';
+    margin: 0 0 0.5em 0.5em;
+  }
+  thead.scripted tr > td.header {
+    position: static;
+  }
+  #attendees tbody tr {
+    position: relative;
+    margin-top: .75em;
+    margin-bottom: .75em;
+    border-bottom: 1px solid #e3e2db;
+    background-color: white;
+    padding: 0.2em 0.2em 1em;
+  }
+  #attendees td {
+    padding: 0;
+  }
+  #attendees tr,
+  #attendees td {
+    display: block;
+  }
+  #attendees tr > td:first-child {
+    font-weight: bold;
+  }
+  #attendees tr > td:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #C0B8B4;
+  }
+  #attendees tr > td.header {
+    position: static;
+    color: white;
+  }
+}
+
+/* Ladies and gentlemen, I give the you the first breakpoint */
+@media only screen and (min-width: 48em) {
+  /* This is so small that I feel no guilt about hiding it. */
+  #spotlight {
+    display: none;
+  }
+  #page {
+    border-right: 1em solid olivedrab;
+  }
+  /* Navigation */
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  nav ul {
+    margin-bottom: 0;
+    padding-left: 1em;
+  }
+  nav li {
+    display: inline-block;
+    text-align: left;
+    border-bottom: none;
+  }
+  nav a.current,
+  nav a:hover {
+    border-bottom: .5em solid olivedrab;
+    background-color: transparent;
+  }
+  /* Header */
+  header {
+    position: relative;
+    height: 17em;
+    padding: 0;
+    min-height: 17em;
+    text-align: left;
+  }
+  header h1,
+  .info {
+    position: absolute;
+    width: 50%;
+  }
+  header h1 {
+    bottom: -1em;
+    height: 7em;
+    margin: 0;
+    background-size: 7em;
+    background-position: 50% 0.4em;
+    border-bottom: 1em solid #222;
+  }
+  .info {
+    right: 0;
+    bottom: 0;
+  }
+  .date {
+    margin: 0;
+  }
+  .purchase {
+    margin-bottom: 0;
+  }
+  #content {
+    padding: 2em 10%;
+  }
+  footer {
+    text-align: left;
+  }
+  footer li {
+    display: inline-block;
+    margin-left: 2em;
+    vertical-align: middle;
+  }
+  /* Form */
+  form p {
+    display: table;
+    margin: 1em 0;
+  }
+  label, input {
+    display: table-cell;
+  }
+  label {
+    width: 10em;
+    text-align: right;
+    padding-right: 1em;
+  }
+  input[type="submit"] {
+    display: block;
+    margin-left: 11em;
+  }
+  .img.right,
+  .speaker img {
+    float: right;
+    margin: 0 0 1em 1em;
+  }
+}
+
+@media only screen and (min-width: 54em) {
+  #page {
+    border-width: 1.5em;
+  }
+  /* There's gold in them thar hills. */
+  header h1 {
+    width: 38.2%;
+  }
+  .info {
+    width: 61.8%;
+  }
+  .home #content {
+    position: relative;
+    padding-left: 40%;
+    background: transparent url("../img/curly.png") 32% 4em no-repeat;
+  }
+  article {
+    margin-left: 36%;
+  }
+  .home article {
+    margin-left: 0;
+  }
+  .purchase {
+    display: inline-block;
+  }
+  /* Speakers */
+  #fs {
+    background: olivedrab url("../img/fantasai.jpg") -84px -70px no-repeat;
+  }
+  #clarissa {
+    background: olivedrab url("../img/clarissa-peterson.jpg") -78px -62px no-repeat;
+  }
+  #paul {
+    background: olivedrab url("../img/paul-robert-lloyd.jpg") -48px -34px no-repeat;
+  }
+  #zoe {
+    background: olivedrab url("../img/zoe-gillenwater.jpg") -65px -57px no-repeat;
+  }
+  #stephen {
+    background: olivedrab url("../img/stephen-hay.jpg") -14px -64px no-repeat;
+  }
+  #roy {
+    background: olivedrab url("../img/roy-tomeij.jpg") -74px -72px no-repeat;
+  }
+  #john {
+    background: olivedrab url("../img/john-daggett.jpg") -64px -63px no-repeat;
+  }
+  #rachel {
+    background: olivedrab url("../img/rachel-andrew.jpg") -91px -60px no-repeat;
+  }
+  .speakers span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3em;
+    height: 2em;
+    background-color: olivedrab;
+    border-radius: .4em;
+    box-shadow: 0px 0px 0px 0px rgba(9, 27, 40, 0.2);
+    transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .speakers a:hover span {
+    width: 200px;
+    height: 200px;
+    background-position: 0 0 !important;
+    margin-top: -75px;
+    margin-left: -75px;
+    z-index: 10;
+    box-shadow: 80px 100px 20px -40px rgba(9, 27, 40, 0.2);
+  }
+  .speakers li:nth-child(-n+4) span {
+    left: 10%;
+  }
+  .speakers li:nth-child(n+5) span {
+    left: 18%;
+  }
+  .speakers li:nth-child(4n+1) span {
+    top: 7em;
+  }
+  .speakers li:nth-child(4n+2) span {
+    top: 10em;
+  }
+  .speakers li:nth-child(4n+3) span {
+    top: 13em;
+  }
+  .speakers li:nth-child(4n+4) span {
+    top: 16em;
+  }
+}
+
+@media screen and (min-width: 72em) {
+  body {
+    font-size: 112.5%;
+  }
+  .home #content {
+    background-position: 34% 4em;
+    background-position: 34% 4em;
+  }
+  .speakers li:nth-child(-n+4) span {
+    top: 8.5em;
+  }
+  .speakers li:nth-child(n+5) span {
+    top: 11.5em;
+  }
+  .speakers li:nth-child(4n+1) span {
+    left: 6%;
+  }
+  .speakers li:nth-child(4n+2) span {
+    left: 12%;
+  }
+  .speakers li:nth-child(4n+3) span {
+    left: 18%;
+  }
+  .speakers li:nth-child(4n+4) span {
+    left: 24%;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  body {
+    font-size: 125%;
+    background-color: dimgray;
+  }
+  #page {
+    margin: 0 auto;
+    max-width: 80em;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    padding-left: 0;
+  }
+  nav a {
+    padding: 0.5em 0.3em;
+  }
+}

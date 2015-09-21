@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19033",
+"creatorBuild": "19051",
 "files": {
 	"\/ascii-art\/ascii-art-boxshadow.css": {
 		"fileType": 16,
@@ -387,15 +387,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/css\/_dir.scss": {
+	"\/rtl\/cssday\/css\/_dir.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rtl\/css\/_dir.scss",
-		"outputAbbreviatedPath": "\/rtl\/css\/_dir.css",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/css\/_dir.scss",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/css\/_dir.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -403,24 +403,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/rtl\/css\/base-live.css": {
+	"\/rtl\/cssday\/css\/base-live.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rtl\/css\/base-live.css",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/css\/base-live.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/rtl\/css\/base-live.scss": {
+	"\/rtl\/cssday\/css\/base-live.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rtl\/css\/base-live.scss",
-		"outputAbbreviatedPath": "\/rtl\/css\/base-live.css",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/css\/base-live.scss",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/css\/base-live.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -428,24 +428,33 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/rtl\/css\/base.css": {
+	"\/rtl\/cssday\/css\/base-original.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rtl\/css\/base.css",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/css\/base-original.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/rtl\/css\/base.scss": {
+	"\/rtl\/cssday\/css\/base.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rtl\/cssday\/css\/base.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rtl\/cssday\/css\/base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rtl\/css\/base.scss",
-		"outputAbbreviatedPath": "\/rtl\/css\/base.css",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/css\/base.scss",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/css\/base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -453,186 +462,410 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/rtl\/css\/normalize.css": {
+	"\/rtl\/cssday\/css\/normalize.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rtl\/css\/normalize.css",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/css\/normalize.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/rtl\/img\/clarissa-peterson.jpg": {
+	"\/rtl\/cssday\/img\/clarissa-peterson.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6747,
-		"inputAbbreviatedPath": "\/rtl\/img\/clarissa-peterson.jpg",
-		"outputAbbreviatedPath": "\/rtl\/img\/clarissa-peterson.jpg",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/clarissa-peterson.jpg",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/clarissa-peterson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/coolblue.png": {
+	"\/rtl\/cssday\/img\/coolblue.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2106,
-		"inputAbbreviatedPath": "\/rtl\/img\/coolblue.png",
-		"outputAbbreviatedPath": "\/rtl\/img\/coolblue.png",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/coolblue.png",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/coolblue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/cssday-logo.png": {
+	"\/rtl\/cssday\/img\/cssday-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2926,
-		"inputAbbreviatedPath": "\/rtl\/img\/cssday-logo.png",
-		"outputAbbreviatedPath": "\/rtl\/img\/cssday-logo.png",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/cssday-logo.png",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/cssday-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/curly.png": {
+	"\/rtl\/cssday\/img\/curly.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1822,
-		"inputAbbreviatedPath": "\/rtl\/img\/curly.png",
-		"outputAbbreviatedPath": "\/rtl\/img\/curly.png",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/curly.png",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/curly.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/fantasai.jpg": {
+	"\/rtl\/cssday\/img\/fantasai.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6272,
-		"inputAbbreviatedPath": "\/rtl\/img\/fantasai.jpg",
-		"outputAbbreviatedPath": "\/rtl\/img\/fantasai.jpg",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/fantasai.jpg",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/fantasai.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/ie.png": {
+	"\/rtl\/cssday\/img\/ie.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1330,
-		"inputAbbreviatedPath": "\/rtl\/img\/ie.png",
-		"outputAbbreviatedPath": "\/rtl\/img\/ie.png",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/ie.png",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/ie.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/john-daggett.jpg": {
+	"\/rtl\/cssday\/img\/john-daggett.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6486,
-		"inputAbbreviatedPath": "\/rtl\/img\/john-daggett.jpg",
-		"outputAbbreviatedPath": "\/rtl\/img\/john-daggett.jpg",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/john-daggett.jpg",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/john-daggett.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/mailchimp-light.png": {
+	"\/rtl\/cssday\/img\/mailchimp-light.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2941,
-		"inputAbbreviatedPath": "\/rtl\/img\/mailchimp-light.png",
-		"outputAbbreviatedPath": "\/rtl\/img\/mailchimp-light.png",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/mailchimp-light.png",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/mailchimp-light.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/paul-robert-lloyd.jpg": {
+	"\/rtl\/cssday\/img\/paul-robert-lloyd.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5472,
-		"inputAbbreviatedPath": "\/rtl\/img\/paul-robert-lloyd.jpg",
-		"outputAbbreviatedPath": "\/rtl\/img\/paul-robert-lloyd.jpg",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/paul-robert-lloyd.jpg",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/paul-robert-lloyd.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/rachel-andrew.jpg": {
+	"\/rtl\/cssday\/img\/rachel-andrew.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4760,
-		"inputAbbreviatedPath": "\/rtl\/img\/rachel-andrew.jpg",
-		"outputAbbreviatedPath": "\/rtl\/img\/rachel-andrew.jpg",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/rachel-andrew.jpg",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/rachel-andrew.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/roy-tomeij.jpg": {
+	"\/rtl\/cssday\/img\/roy-tomeij.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5026,
-		"inputAbbreviatedPath": "\/rtl\/img\/roy-tomeij.jpg",
-		"outputAbbreviatedPath": "\/rtl\/img\/roy-tomeij.jpg",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/roy-tomeij.jpg",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/roy-tomeij.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/stephen-hay.jpg": {
+	"\/rtl\/cssday\/img\/stephen-hay.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4933,
-		"inputAbbreviatedPath": "\/rtl\/img\/stephen-hay.jpg",
-		"outputAbbreviatedPath": "\/rtl\/img\/stephen-hay.jpg",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/stephen-hay.jpg",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/stephen-hay.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/typekit.png": {
+	"\/rtl\/cssday\/img\/typekit.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1916,
-		"inputAbbreviatedPath": "\/rtl\/img\/typekit.png",
-		"outputAbbreviatedPath": "\/rtl\/img\/typekit.png",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/typekit.png",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/typekit.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/img\/zoe-gillenwater.jpg": {
+	"\/rtl\/cssday\/img\/zoe-gillenwater.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6591,
-		"inputAbbreviatedPath": "\/rtl\/img\/zoe-gillenwater.jpg",
-		"outputAbbreviatedPath": "\/rtl\/img\/zoe-gillenwater.jpg",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/img\/zoe-gillenwater.jpg",
+		"outputAbbreviatedPath": "\/rtl\/cssday\/img\/zoe-gillenwater.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/rtl\/programme-live.html": {
+	"\/rtl\/cssday\/programme-live.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rtl\/programme-live.html",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/programme-live.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/rtl\/programme.html": {
+	"\/rtl\/cssday\/programme-original.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rtl\/programme.html",
+		"inputAbbreviatedPath": "\/rtl\/cssday\/programme-original.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/rtl\/cssday\/programme.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rtl\/cssday\/programme.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rtl\/fronteers\/_dir.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/_dir.scss",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/_dir.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/rtl\/fronteers\/fronteers.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/fronteers.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rtl\/fronteers\/fronteers.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/fronteers.js",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/min\/fronteers-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/rtl\/fronteers\/fronteers.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/fronteers.scss",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/fronteers.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/rtl\/fronteers\/img\/back-l-005.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104552,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/back-l-005.jpg",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/back-l-005.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/bullet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 239,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/bullet.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/bullet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/code.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/code.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/code.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/content.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 527,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/content.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/content.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/dash-top.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/dash-top.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/dash-top.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/dash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/dash.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/dash.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/marker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 591,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/marker.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/marker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/pull.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1052,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/pull.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/pull.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/quote-bottom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/quote-bottom.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/quote-bottom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/quote-top.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 273,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/quote-top.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/quote-top.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/section-with-dash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 713,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/section-with-dash.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/section-with-dash.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/img\/section.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 499,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/img\/section.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/img\/section.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rtl\/fronteers\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rtl\/fronteers\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/jquery.min.js",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/rtl\/fronteers\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4670,
+		"inputAbbreviatedPath": "\/rtl\/fronteers\/logo.png",
+		"outputAbbreviatedPath": "\/rtl\/fronteers\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/sunrise\/_base.scss": {
 		"createSourceMap": 0,
@@ -683,106 +916,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/zindex\/zindex-appearance_order.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/zindex\/zindex-appearance_order.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/zindex\/zindex-appearance_order.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/zindex\/zindex-appearance_order.scss",
-		"outputAbbreviatedPath": "\/zindex\/zindex-appearance_order.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
-		},
-	"\/zindex\/zindex-autoselectors.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/zindex\/zindex-autoselectors.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/zindex\/zindex-autoselectors.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/zindex\/zindex-autoselectors.scss",
-		"outputAbbreviatedPath": "\/zindex\/zindex-autoselectors.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
-		},
-	"\/zindex\/zindex-keys.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/zindex\/zindex-keys.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/zindex\/zindex-keys.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/zindex\/zindex-keys.scss",
-		"outputAbbreviatedPath": "\/zindex\/zindex-keys.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
-		},
-	"\/zindex\/zindex-selectors.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/zindex\/zindex-selectors.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/zindex\/zindex-selectors.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/zindex\/zindex-selectors.scss",
-		"outputAbbreviatedPath": "\/zindex\/zindex-selectors.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
 		}
 	},
 "hooks": [
@@ -1276,10 +1409,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -1288,15 +1417,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1304,75 +1425,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},

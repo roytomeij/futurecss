@@ -1,0 +1,24 @@
+$dir: ltr !default;
+
+@function is-ltr() {
+  @return if($dir == 'ltr', true, false)
+}
+
+@function is-rtl() {
+  @return if($dir == 'rtl', true, false)
+}
+
+@function ltr-shorthand($values) {
+  @return if(is-ltr(), $values, nth($values,1) nth($values,4) nth($values,3) nth($values,2));
+}
+
+@function ltr-opposite($value) {
+  $opposites: (left: right, right: left);
+  @return if(is-ltr(), $value, map-get($opposites, $value));
+}
+
+@mixin if-rtl {
+  @if is-rtl() {
+    @content;
+  }
+}

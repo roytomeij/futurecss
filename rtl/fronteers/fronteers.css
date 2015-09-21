@@ -1,0 +1,1457 @@
+* {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, blockquote, pre, code, p, ul, ol, li, dl, dt, dd, form, fieldset, legend, label, div, span, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: #fff;
+  color: #363636;
+}
+
+html {
+  background: #000 url(img/back-l-005.jpg) no-repeat fixed 0 0;
+  background-size: cover;
+}
+
+body {
+  font-size: 10px;
+  background: transparent;
+  font-family: Verdana, sans-serif;
+}
+
+fieldset {
+  border: none;
+}
+
+label[for] {
+  cursor: pointer;
+}
+
+video, applet, object, embed {
+  display: block;
+}
+
+iframe {
+  display: block;
+  border: none;
+}
+
+input, button, textarea, select {
+  font-size: 1em;
+  font-family: Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a img {
+  border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+}
+
+h1 {
+  height: 75px;
+  padding-bottom: 1px;
+  background: transparent url(img/dash.png) repeat-x 0 100%;
+}
+
+h1 a {
+  background: #fff;
+  display: block;
+  text-decoration: none;
+  height: 75px;
+}
+
+h1 a img {
+  margin: 11px 0 0 21px;
+  max-width: 100%;
+}
+
+div.section {
+  padding: 2em 0;
+  background: rgba(255, 255, 255, 0.9);
+  line-height: 1.8;
+  position: relative;
+  word-wrap: break-word;
+}
+
+div.odd {
+  background: #fff url(img/dash.png) repeat-x 0 0;
+}
+
+div.odd + div.section {
+  background: rgba(255, 255, 255, 0.9) url(img/dash.png) repeat-x 0 0;
+}
+
+div.section h2, div.section h3, div.section h4, div.section h5, div.section p, div.section ul, div.section ol, div.section dl, div.section object, div.section applet {
+  margin: 10px 30px 10px 50px;
+}
+
+div.section video {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background: url(img/dash.png) repeat-x 0 100%, #fff url(img/dash.png) repeat-x 0 0;
+  padding: 1px 0;
+}
+
+div.section video p {
+  font-style: italic;
+}
+
+div.section iframe {
+  margin: 0;
+  width: 100%;
+  background: url(img/dash.png) repeat-x 0 100%, #fff url(img/dash.png) repeat-x 0 0;
+  padding: 1px 0;
+}
+
+div.section iframe.jsfiddle {
+  height: 260px;
+}
+
+div.section h2 {
+  color: #38302b;
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 0 30px 15px 50px;
+}
+
+div.section h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #444;
+}
+
+div.section h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: -5px;
+  color: #444;
+}
+
+div.section h4 + pre {
+  margin-top: 10px;
+}
+
+div.section h5 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: -10px;
+  color: #444;
+}
+
+div.section a {
+  color: #00a0d2;
+  text-decoration: none;
+  border-bottom: 1px solid #00a0d2;
+  padding: 1px 0;
+}
+
+div.section a:visited {
+  border-color: #ccc;
+}
+
+div.section a:focus, div.section a:hover, div.section a:active {
+  color: #5b4a42;
+  border-color: #5b4a42;
+}
+
+div.section a.sponsor {
+  border: none;
+}
+
+div.section a.sponsor img {
+  vertical-align: middle;
+}
+
+div.section p, div.section ul, div.section ol, div.section th, div.section td, div.section dl {
+  font-size: 1.1em;
+}
+
+div.section p.note {
+  font-size: 1em;
+  font-style: italic;
+}
+
+div.section ul ul, div.section ul ol {
+  font-size: 1em;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+div.section ol ul, div.section ol ol {
+  font-size: 1em;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+div.section ul p, div.section ol p {
+  font-size: 1em;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+div.section ul {
+  margin-left: 35px;
+}
+
+div.section ul li {
+  padding: 0 0 0 15px;
+  background: transparent url(img/bullet.png) no-repeat 0 0.6em;
+}
+
+div.section ul.inline {
+  margin-left: 50px;
+}
+
+div.section ul.inline li {
+  padding: 0;
+  background: none;
+  display: inline;
+}
+
+div.section ul.inline li:after {
+  content: ',';
+}
+
+div.section ul.inline li:last-child:after {
+  content: '.';
+}
+
+div.section ol {
+  list-style: decimal;
+}
+
+div.section ol ol {
+  list-style: lower-alpha;
+  margin-left: 20px;
+}
+
+div.section dl dt {
+  font-weight: bold;
+}
+
+div.section p.source {
+  background: #958575 url(img/dash.png) repeat-x 0 0;
+  margin: 0;
+  font-size: 1em;
+}
+
+div.section p.source cite {
+  display: block;
+  background: transparent url(img/dash.png) repeat-x 0 100%;
+  padding: 2px 30px 2px 50px;
+  color: #fff;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+div.section p.source cite a {
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+
+div.section blockquote {
+  background: url(img/dash.png) repeat-x 0 100%, url(img/quote-top.png) no-repeat 19px 0, #fff url(img/quote-bottom.png) no-repeat 504px 100%;
+  font-style: normal;
+  margin: 0 0 20px 0;
+  padding: 5px 0;
+  font-family: Georgia, serif;
+  color: #5b4a42;
+}
+
+div.section blockquote p {
+  margin: 5px 30px 5px 50px;
+}
+
+div.section table {
+  background: transparent url(img/dash.png) repeat-x 0 100%;
+  padding: 0 0 1px 0;
+  border-collapse: collapse;
+  width: 100%;
+  color: #5b4a42;
+}
+
+div.section caption {
+  background: #21b4ea url(img/dash.png) repeat-x 0 0;
+  text-align: left;
+  padding: 0.2em 0 0.2em 50px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+div.section tr {
+  background: #fff;
+  font-family: Georgia, sans-serif;
+}
+
+div.section tr.odd {
+  background: #cbeaef;
+}
+
+div.section tr:first-child {
+  background: #fff url(img/dash.png) repeat-x 0 0;
+}
+
+div.section tr th, div.section tr td {
+  text-align: left;
+  padding: 1px 5px;
+}
+
+div.section tr:first-child th, div.section tr:first-child td {
+  padding-top: 2px;
+}
+
+div.section tr:last-child {
+  background: #fff url(img/dash.png) repeat-x 0 100%;
+}
+
+div.section tr:last-child th, div.section tr:last-child td {
+  padding-bottom: 2px;
+}
+
+div.section tr.odd:last-child {
+  background: #cbeaef url(img/dash.png) repeat-x 0 100%;
+}
+
+div.section th:first-child {
+  padding-left: 50px;
+  white-space: nowrap;
+}
+
+div.section td:first-child {
+  padding-left: 50px;
+  white-space: nowrap;
+}
+
+div.section td.price {
+  white-space: nowrap;
+  text-align: right;
+  padding-right: 10px;
+}
+
+div.section td:first-child + td.price {
+  text-align: left;
+  padding-right: 0;
+}
+
+div.section table + table {
+  margin-top: 10px;
+}
+
+div.section table.schedule {
+  table-layout: fixed;
+  margin: 0;
+  background-image: none;
+  position: relative;
+}
+
+div.section table.schedule caption {
+  padding: 0.5em 0 0.5em 50px;
+}
+
+div.section table.schedule tr {
+  background: #fff url(img/dash.png) repeat-x 0 0;
+  font-size: 12px;
+}
+
+div.section table.schedule tr.odd {
+  background-color: transparent;
+}
+
+div.section table.schedule tr:last-child {
+  background-position: 0 0;
+}
+
+div.section table.schedule tr th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div.section table.schedule th:first-child {
+  padding: 5px 5px 5px 0;
+  width: 45px;
+  vertical-align: top;
+  text-align: right;
+}
+
+div.section table.schedule td:first-child {
+  padding: 5px 5px 5px 0;
+  width: 45px;
+  vertical-align: top;
+  text-align: right;
+  color: #666;
+}
+
+div.section table.schedule th + th {
+  padding-left: 0;
+}
+
+div.section table.schedule td + td {
+  padding: 5px 10px 5px 0;
+  vertical-align: top;
+}
+
+div.section table.schedule tr td {
+  padding-bottom: 15px;
+}
+
+div.section table.schedule td strong {
+  display: block;
+  color: #666;
+}
+
+div.section table.schedule a {
+  color: #666;
+}
+
+div.section div.img, div.section p.figure {
+  margin: 10px 0 10px 50px;
+}
+
+div.section div.img a, div.section p.figure a {
+  padding: 0;
+  border: none;
+}
+
+div.section div.img img {
+  max-width: 100%;
+}
+
+div.section p.figure img {
+  max-width: 100%;
+}
+
+div.section p.speaker {
+  margin: -30px 30px 0 10px;
+  float: right;
+}
+
+div.section p.sponsor {
+  margin: 0 30px 0 10px;
+  float: right;
+  clear: right;
+}
+
+div.section p.full {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div.section p.bordered, div.section p.warning {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 50px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: url(img/dash.png) repeat-x 0 100%, #fff url(img/dash.png) repeat-x 0 0;
+}
+
+div.section p.bordered img, div.section p.warning strong {
+  display: block;
+}
+
+div.section p.full-width {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+div.section p.full-width img {
+  width: 100%;
+}
+
+div.section p.side {
+  float: right;
+  margin: 0 20px;
+}
+
+div.section p.padded img {
+  padding: 10px 0;
+}
+
+div.section p.centered {
+  margin: 10px auto;
+}
+
+div.section p.centered img {
+  margin: 0 auto;
+  display: block;
+}
+
+div.section p.warning {
+  margin-bottom: 2em;
+}
+
+div.section p.warning strong {
+  padding: 10px 0;
+}
+
+div.section ul.meta {
+  margin: -5px 30px 0 0;
+}
+
+div.section ul.meta li {
+  margin: 0 0 0 45px;
+  padding-left: 18px;
+  color: #626262;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  background: none;
+}
+
+div.section ul.meta li.author {
+  display: inline;
+}
+
+div.section ul.meta li.author:after {
+  content: ', ';
+}
+
+div.section ul.meta li.date {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+div.section ul.meta li.categories {
+  background: transparent url(img/icons.gif) no-repeat left 50%;
+}
+
+div.section ul.meta li.categories ul {
+  margin: 0;
+}
+
+div.section ul.meta li.categories ul li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 1em;
+}
+
+div.section ul.meta li.categories ul li:after {
+  content: ', ';
+}
+
+div.section ul.meta li.categories ul li:last-child:after {
+  content: '';
+}
+
+div.section ul.meta li a {
+  border: none;
+  padding: 0;
+}
+
+div.section ul.options {
+  margin: 1em 1em 10px 50px;
+  text-align: right;
+}
+
+div.section ul.options li {
+  display: inline;
+  margin-right: 2px;
+  padding: 0;
+  background: none;
+}
+
+div.section ul.options li a strong {
+  color: #f2bb00;
+}
+
+div.section ul.post {
+  margin: 2em 30px 2em 3.8em;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1em;
+}
+
+div.section ul.post li {
+  float: left;
+  text-transform: uppercase;
+  margin-right: 2px;
+  padding: 0;
+  background: none;
+}
+
+div.section ul.post li a {
+  text-decoration: none;
+  padding: 0 10px;
+  background: #949494;
+  color: #fff;
+  border: none;
+  display: block;
+  line-height: 2;
+}
+
+div.section ul.post li a#goto-comments {
+  border-radius: 10px 0 0 10px;
+}
+
+div.section ul.post li a#goto-comment {
+  border-radius: 0 10px 10px 0;
+}
+
+div.section .post-footer {
+  background: url(img/dash.png) repeat-x 0 0, #958575 url(img/dash.png) repeat-x 0 100%;
+  margin: 0;
+  padding: .5em 0;
+  font-size: 1em;
+  color: #fff;
+  overflow: hidden;
+}
+
+div.section .post-footer img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+div.section .post-footer h3 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+div.section .post-footer h3 + p {
+  margin-top: 0;
+}
+
+div.section .post-footer a {
+  color: #fff;
+  border-color: #fff;
+}
+
+div.section pre {
+  background: #fbca0b url(img/code.png) repeat-x -30px 0;
+  padding: 21px 0 0 0;
+}
+
+div.section pre code {
+  line-height: 1.5;
+  display: block;
+  padding: 1em 0 1em 20px;
+  color: #5b4a42;
+  font-size: 1.1em;
+  font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;
+  background: #fff url(img/dash.png) repeat-x 0 100%;
+  overflow: auto;
+  white-space: pre;
+}
+
+div.section pre.shell {
+  background: rgba(0, 0, 0, 0.8) url(img/dash.png) repeat-x 0 0;
+  padding: 0;
+}
+
+div.section pre.shell samp {
+  line-height: 1.5;
+  display: block;
+  padding: 1em 0 1em 20px;
+  color: #fff;
+  font-size: 1.1em;
+  font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;
+  background: transparent url(img/dash.png) repeat-x 0 100%;
+  overflow: auto;
+  white-space: pre;
+}
+
+div.section form, div.section div.submitted {
+  padding: 2em 0 2em 50px;
+  margin: 2em 0 -2em 0;
+  background: url(img/dash.png) repeat-x scroll 0 0, url(img/dash.png) repeat-x scroll 0 100% #fff;
+}
+
+div.section form:last-child {
+  background: #fff url(img/dash.png) repeat-x 0 0;
+}
+
+div.section div.submitted {
+  padding: 2em 0;
+}
+
+div.section div.submitted:last-child {
+  background: #fff url(img/dash.png) repeat-x 0 0;
+}
+
+div.section form fieldset {
+  padding: 20px 0 0 0;
+}
+
+div.section form legend {
+  color: #38302b;
+  font-size: 1.4em;
+}
+
+div.section form h2 {
+  margin: 0 30px 20px 0;
+}
+
+div.section form dl {
+  margin: 0;
+  font-size: 1em;
+}
+
+div.section form dt {
+  border-top: 1px solid #d0d0d0;
+  color: #383838;
+  width: 16em;
+  padding: 0.2em 0.1em;
+  float: left;
+  clear: left;
+  margin: 0 0.5em 0 0;
+  position: relative;
+  font-weight: normal;
+}
+
+div.section form em {
+  position: absolute;
+  top: -0.2em;
+  right: -42.3em;
+  display: block;
+  padding: 0.3em 0.5em;
+  background: #7fceef;
+  width: 12.9em;
+  color: #fff;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+div.section form em a {
+  color: #fff;
+  border: none;
+  text-decoration: underline;
+}
+
+div.section form dd {
+  margin: 0 0 0.6em 0;
+}
+
+div.section form input.text, div.section form textarea, div.section form select {
+  font-size: 1em;
+  background: #f2bb00;
+  color: #000;
+  border: none;
+  width: 23.9em;
+  vertical-align: top;
+}
+
+div.section form input.text, div.section form textarea {
+  padding: 0.3em 0 0 0;
+  border-bottom: 0.3em solid #f2bb00;
+}
+
+div.section form input.text:hover, div.section form textarea:hover, div.section form input.hover, div.section form textarea.hover {
+  border-color: #958575;
+}
+
+div.section form input.text:focus, div.section form textarea:focus, div.section form input.focus {
+  border-color: #5b4a42;
+}
+
+div.section form textarea {
+  height: 16em;
+  min-height: 8em;
+  max-height: 30em;
+  resize: vertical;
+  max-width: 23.9em;
+}
+
+div.section form textarea.focus {
+  border-color: #5b4a42;
+}
+
+div.section form textarea.small {
+  height: 10em;
+}
+
+div.section form input.number {
+  width: 4em;
+}
+
+div.section form input.day, div.section form input.month {
+  width: 2em;
+}
+
+div.section form input.phone {
+  width: 8em;
+}
+
+div.section form input.year {
+  width: 4em;
+}
+
+div.section form input.radio {
+  background: #fff;
+  margin: 0;
+  vertical-align: middle;
+}
+
+div.section form input.selected {
+  background: #009ee0;
+}
+
+div.section form input.current {
+  background: #f2bb00;
+}
+
+div.section form input.submit {
+  margin: 0 0 0 16.7em;
+  cursor: pointer;
+  border: none;
+  padding: 0.4em 1em;
+  border-bottom: 0.2em solid #5b4a42;
+  background: #f2bb00;
+  color: #000;
+}
+
+div.section form input#naam {
+  width: 16.3em;
+  margin-right: 0.3em;
+}
+
+div.section form input#tussenvoegsel {
+  width: 7.3em;
+}
+
+div.section form input#straat {
+  width: 18.7em;
+  margin-right: 0.3em;
+}
+
+div.section form input#huisnummer {
+  width: 4.9em;
+}
+
+div.section form input#postcode {
+  width: 6.9em;
+  margin-right: 0.3em;
+}
+
+div.section form input#woonplaats {
+  width: 16.7em;
+}
+
+div.section form input.error {
+  background: #f99;
+  border-color: red;
+}
+
+div.section form + h2 {
+  margin-top: 3em;
+}
+
+div.section div.submitted + h2, div.section form + h3, div.section div.submitted + h3, div.section form + p, div.section div.submitted + p {
+  margin-top: 3em;
+}
+
+div.section form p {
+  font-size: 1em;
+  margin: 0;
+  overflow: hidden;
+  padding: 0 0 0.3em 0;
+}
+
+div.section form p label {
+  color: #383838;
+  border-top: 1px solid #d0d0d0;
+  width: 16em;
+  padding: 0.1em;
+  float: left;
+  margin: 0 0.5em 0 0;
+  position: relative;
+  font-weight: normal;
+}
+
+div.section form p label em {
+  position: absolute;
+  top: -0.2em;
+  right: -33.8em;
+  display: block;
+  padding: 0.3em 0.5em;
+  background: #7fceef;
+  width: 7.9em;
+  color: #fff;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+div.section form p input.text, div.section form p textarea, div.section form p select {
+  vertical-align: top;
+  font-size: 1em;
+  width: 23.9em;
+}
+
+div.section form p input.number {
+  width: 4em;
+}
+
+div.section form p input.day, div.section form p input.month {
+  width: 2em;
+}
+
+div.section form p input.phone {
+  width: 8em;
+}
+
+div.section form p input.year {
+  width: 4em;
+}
+
+div.section form p textarea {
+  max-width: 23.9em;
+}
+
+div.section form fieldset fieldset {
+  padding: 0 0 0.3em 0;
+}
+
+div.section form fieldset fieldset legend {
+  font-size: 1em;
+  white-space: normal;
+}
+
+div.section form fieldset fieldset legend span {
+  color: #383838;
+  border-top: 1px solid #d0d0d0;
+  width: 16em;
+  padding: 0 0.1em;
+  margin: 0 0.5em 0 0;
+  position: absolute;
+}
+
+div.section form fieldset fieldset legend span em {
+  position: absolute;
+  top: -0.2em;
+  right: -33.8em;
+  display: block;
+  padding: 0.3em 0.5em;
+  background: #7fceef;
+  width: 7.9em;
+  color: #fff;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+div.section form fieldset fieldset ul {
+  margin: 0 0 0 16.7em;
+  font-size: 1em;
+}
+
+div.section form fieldset fieldset ul li {
+  background: none;
+  padding: 0;
+  vertical-align: middle;
+}
+
+div.section form fieldset fieldset ul li input {
+  vertical-align: middle;
+}
+
+div.section form fieldset fieldset ul li label {
+  display: block;
+  width: 23.9em;
+}
+
+div.section form#inschrijfformulier fieldset fieldset {
+  position: relative;
+}
+
+div.section form#inschrijfformulier fieldset fieldset legend {
+  font-size: 1em;
+}
+
+div.section form#inschrijfformulier fieldset fieldset legend span {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  display: block;
+  text-align: right;
+  padding: 0 0.5em;
+  background: #7fceef;
+  width: 10.9em;
+  height: 39px;
+  line-height: 39px;
+  color: #fff;
+  font-style: normal;
+}
+
+div.section dl.reacties {
+  list-style: none;
+  margin: 1em 0 0 0;
+}
+
+div.section dl.reacties dt {
+  background: #fff url(img/dash.png) repeat-x 0 0;
+  padding: 15px 30px 0 50px;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+div.section dl.reacties dt.odd {
+  background-color: transparent;
+}
+
+div.section dl.reacties dt a.number {
+  float: left;
+  margin-left: -40px;
+  width: 30px;
+  text-align: right;
+  border: none;
+  padding: 0;
+}
+
+div.section dl.reacties dd {
+  background: #fff;
+  padding: 10px 30px 15px 50px;
+  overflow: auto;
+}
+
+div.section dl.reacties dd.odd {
+  background-color: transparent;
+}
+
+div.section div.google-maps-styled div.map {
+  height: 300px;
+  margin: 0;
+}
+
+div.section div.google-maps-styled p {
+  font-size: 0.9em;
+}
+
+.js-enabled .transcript p {
+  cursor: pointer;
+}
+
+#laatste-reacties {
+  margin-bottom: -1.8181em;
+}
+
+#reageer, #comment {
+  margin: 0 0 -2em 0;
+}
+
+#reageer p label, #comment p label {
+  width: 8em;
+}
+
+#reageer p label em, #comment p label em {
+  right: -41.8em;
+  width: 15.9em;
+}
+
+#reageer input.submit, #comment input.submit {
+  margin-left: 8.7em;
+}
+
+#nerdy {
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+}
+
+#nerdy a {
+  text-indent: -9999em;
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  overflow: hidden;
+}
+
+#nerdy-view {
+  white-space: pre-wrap;
+  background: #fff;
+  font-size: 14px;
+  overflow: auto;
+}
+
+.extra, p.skip {
+  position: absolute;
+  left: -9999px;
+}
+
+#container {
+  position: relative;
+  padding: 5em 0 10em 0;
+  z-index: 2;
+}
+
+#main {
+  width: 55em;
+  position: relative;
+  left: 20em;
+  top: 0;
+  z-index: 2;
+}
+
+#sponsors {
+  margin: 5em 0 0 20em;
+  width: 55em;
+  background: #fff;
+}
+
+#sponsors h2 {
+  text-align: left;
+  float: left;
+  margin: 19px 0 0 20px;
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #666;
+}
+
+#sponsors ul {
+  overflow: hidden;
+}
+
+#sponsors li {
+  float: left;
+  margin: 10px 0 10px 40px;
+}
+
+#sponsors li#sponsor-eden {
+  padding-top: 4px;
+}
+
+#sponsors li img {
+  display: block;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#background img {
+  display: block;
+  width: 100%;
+}
+
+#menu {
+  font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;
+  text-transform: uppercase;
+  position: absolute;
+  top: 12.5em;
+  left: 0;
+  text-align: right;
+  width: 20em;
+  line-height: 2.4;
+  z-index: 1;
+}
+
+#menu li {
+  padding: 0 5em 0 0;
+  background: transparent url(img/marker.png) no-repeat -50px 0;
+  position: relative;
+  z-index: 10;
+}
+
+#menu #menu-congres, #menu #menu-vacaturebank, #menu #menu-forum {
+  margin-top: 20px;
+}
+
+#menu li.current {
+  background-position: 100% 0;
+}
+
+.js-enabled #menu li.current {
+  background-position: -50px 0;
+}
+
+#menu li.marker {
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  height: 2em;
+  padding: 0.3em 0;
+  background-position: 100% 50%;
+}
+
+#menu li a {
+  color: #000;
+  background: #f2bb00;
+  text-decoration: none;
+  padding: 0.3em 0.4em;
+  font-size: 1.1em;
+}
+
+#menu li a:hover, #menu li a:active, #menu li a:focus {
+  color: #fff;
+  background: #333;
+}
+
+#menu li ul li {
+  margin-right: -5em;
+}
+
+#menu li ul li a {
+  background: #fff;
+}
+
+#menu #menu-congres a {
+  background-color: #009de0;
+  color: #fff;
+}
+
+#menu #menu-congres li a {
+  background-color: #fff;
+  color: #000;
+}
+
+#menu #menu-congres li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#submenu {
+  font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;
+  position: absolute;
+  top: 12.5em;
+  left: 80em;
+  width: 20em;
+}
+
+#submenu div {
+  margin-bottom: 0.5em;
+}
+
+#submenu h2 {
+  background: #f2bb00;
+  color: #313131;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 3px 7px;
+}
+
+.js-enabled #submenu h2.collapsable {
+  cursor: pointer;
+}
+
+#submenu ul {
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+#submenu ul li {
+  background: transparent url(img/dash.png) repeat-x 0 0;
+  padding-top: 1px;
+}
+
+#submenu ul a {
+  color: #313131;
+  text-decoration: none;
+  display: block;
+  background: transparent url(img/content.png) repeat 0 0;
+  padding: 4px 7px;
+}
+
+#submenu .images ul a {
+  padding: 0;
+  background-color: #fff;
+}
+
+#submenu .images ul a img {
+  display: block;
+}
+
+#submenu ul a:hover, #submenu ul a.current, #submenu ul a:active, #submenu ul a:focus {
+  background: #fff;
+}
+
+#submenu ul ul {
+  font-size: 1em;
+}
+
+#submenu ul ul a {
+  padding: 2px 14px;
+}
+
+#submenu form p {
+  background: transparent url(img/dash.png) repeat-x 0 0;
+  padding: 1px 0 0 0;
+}
+
+#submenu input {
+  width: 100%;
+  margin: 0;
+  padding: 4px 7px;
+  border: none;
+  font-size: 1.1em;
+  font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;
+  background: transparent url(img/content.png) repeat 0 0;
+  box-sizing: border-box;
+}
+
+#submenu input:focus {
+  background-color: #fff;
+}
+
+#conference-menu h2 {
+  background-color: #009de0;
+  color: #fff;
+}
+
+#categories ul a {
+  padding: 3px 7px;
+}
+
+#feeds h2 {
+  background: #f1992f;
+}
+
+#ledenlijst tr {
+  background: transparent url(img/dash.png) repeat-x;
+  font-family: Verdana, sans-serif;
+}
+
+#ledenlijst tr.odd {
+  background: #fff url(img/dash.png) repeat-x;
+}
+
+#ledenlijst tr td {
+  padding: 4px 0;
+}
+
+#ledenlijst tr td:first-child {
+  padding-left: 50px;
+}
+
+#ledenlijst tr td a {
+  color: #434343;
+  border: none;
+  padding: 0;
+}
+
+#pane {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+#pane div {
+  background: #383838;
+}
+
+#pane form {
+  padding: 1.5em 0 1.2em 20em;
+}
+
+#pane legend {
+  display: none;
+}
+
+#pane input {
+  border: none;
+}
+
+#pane input.text {
+  width: 15em;
+  float: left;
+  margin: 0 8px 0 0;
+}
+
+#pane input.text:focus {
+  background: #9e5a5f;
+  color: #fff;
+}
+
+#pane input.submit {
+  background: #00b9e9 url(img/button.gif) no-repeat 100% 50%;
+  color: #fff;
+  padding: 1px 15px 1px 10px;
+}
+
+#pane #pull {
+  background: transparent url(img/dash-top.png) repeat-x 0 0;
+  overflow: hidden;
+  border-top: 0.3em solid #383838;
+  margin-bottom: -2.9em;
+}
+
+#pane #pull a {
+  float: left;
+  margin-left: 80em;
+  width: 34px;
+  height: 28px;
+  text-decoration: none;
+  background: transparent url(img/pull.png) no-repeat 0 0;
+  outline: none;
+}
+
+#pane #pull span {
+  visibility: hidden;
+}
+
+.bw div.section a {
+  color: #363636;
+  border-color: #363636;
+}
+
+.bw div.section a:visited {
+  border-color: #363636;
+}
+
+.bw div.section a:focus, .bw div.section a:hover, .bw div.section a:active {
+  color: #363636;
+  border-color: #363636;
+}
+
+.bw div.section ul.meta li.categories {
+  background: none;
+}
+
+.bw #menu li a, .bw #menu #menu-congres a {
+  color: #fff;
+  background: #333;
+}
+
+.bw #menu li.marker {
+  display: none;
+}
+
+.bw #menu-congres, .bw #menu-vacaturebank, .bw #menu-forum, .bw .has-submenu ul, .bw #submenu {
+  display: none;
+}
+
+.bw div.section ul.options li a strong {
+  color: inherit;
+}
+
+.bw #reageer p label em, .bw #comment p label em {
+  display: none;
+}
+
+.bw div.section form input.text, .bw div.section form textarea, .bw div.section form select {
+  background: #eee;
+}
+
+.bw div.section form input.submit {
+  background: #eee;
+}
+
+.bw div.section form input.text {
+  border-color: #ccc;
+}
+
+.bw div.section form textarea {
+  border-color: #ccc;
+}
